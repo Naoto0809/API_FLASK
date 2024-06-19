@@ -1,0 +1,12 @@
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar logs
+api.log
+
+# Ignorar archivos de texto específicos
+sss.txt
