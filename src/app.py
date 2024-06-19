@@ -17,7 +17,7 @@ def create_app():
     )
 
     # Habilitar CORS desde el puerto 3000
-    CORS(app, resources={"*": {"origins": "http://localhost:3000"}})
+    CORS(app)
     
     # Registro de blueprints
     app.register_blueprint(Persona.main, url_prefix='/api/personas')
